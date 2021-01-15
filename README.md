@@ -1,4 +1,4 @@
-# TobigSlang
+# AMIOK
 translation of neologism, team repository
 투빅스 1314기 컨퍼런스 nlp팀의 기록을 위한 레퍼지토리 입니다.  
 추후 주제 정한 후 저장소 이름 변경 가능합니다.  
