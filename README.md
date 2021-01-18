@@ -1,4 +1,4 @@
-# AM I OK? (리드미 수정 중 ~) 
+# AM I OK? 
 ### 전문의 답변 기반 심리진단 AI 🧐
 2021.01.16. **[제 11회 투빅스 빅데이터 컨퍼런스](https://user-images.githubusercontent.com/43749571/104812963-447f9180-5849-11eb-8725-7453e129c5e9.jpeg)** 발표작
 
@@ -29,9 +29,8 @@ $ cd AMIOK
 ```
 ### 2. Install Packages & Download Models
 #### 2.1. Install Mecab 
-##### 2.1.1. install [mecab-ko](https://bitbucket.org/eunjeon/mecab-ko/downloads/) 
+##### 2.1.1. Install [mecab-ko](https://bitbucket.org/eunjeon/mecab-ko/downloads/) 
 ```sh
-$ cd AMIOK
 $ tar xvfz mecab-0.996-ko-0.9.2.tar.gz
 $ cd mecab-0.996-ko-0.9.2
 $ ./configure
@@ -40,9 +39,8 @@ $ make check
 $ sudo make install
 ```
 
-##### 2.1.2. install [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/) 
+##### 2.1.2. Install [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/) 
 ```sh
-$ cd AMIOK
 $ tar xvfz mecab-ko-dic-2.1.1-20180720.tar.gz
 $ cd mecab-ko-dic-2.1.1-20180720
 $ ./configure
@@ -50,9 +48,8 @@ $ make
 $ sudo make install
 ```
 
-##### 2.1.3. install mecab-python 
+##### 2.1.3. Install mecab-python 
 ```sh
-$ cd AMIOK
 $ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
 $ cd mecab-python-0.996
 $ python setup.py build
@@ -62,13 +59,11 @@ $ su
 
 #### 2.2. Install requirements 
 ```sh
-$ cd AMIOK
 $ pip install -r requirements.txt
 ```
 
 #### 2.3. Install py-hanspell 
 ```sh
-$ cd AMIOK
 $ git clone https://github.com/ssut/py-hanspell.git
 $ cd py-hanspell 
 $ python setup.py install
@@ -84,7 +79,6 @@ $ python setup.py install
 
 ### 3. Run! ✨
 ```sh
-$ cd AMIOK
 $ python main.py -s "질문글을 입력해주세요 :>"
 ```
 
