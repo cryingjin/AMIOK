@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-    <td align="center"><img src="https://user-images.githubusercontent.com/43749571/104812828-48f77a80-5848-11eb-9367-3cce4711f56d.jpeg" width="600px;" alt=""/></a></td>
+    <td align="center"><img src="https://user-images.githubusercontent.com/43749571/104812828-48f77a80-5848-11eb-9367-3cce4711f56d.jpeg" width="700px;" alt=""/></a></td>
   </tr>
 </table>
 
@@ -15,6 +15,11 @@
 
 ## Usage 
 ### 1. Create Virtual environment  
+```sh
+conda create -n virtualvenv
+conda activate virtualvenv
+```
+
 ### 2. Install Mecab 
 ### 3. Install requirements 
 ### 4. Get Pre-trained Checkpoints 
@@ -23,19 +28,33 @@
 <br>
 
 ## Results 
+<table>
+  <tr>
+    <td align="center"><img src="https://user-images.githubusercontent.com/43749571/104932863-85afa700-59eb-11eb-8dc0-b8c67aac31fd.jpeg" width="700px;" alt=""/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://user-images.githubusercontent.com/43749571/104932880-89432e00-59eb-11eb-94e7-74179adf0aba.jpeg" width="700px;" alt=""/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://user-images.githubusercontent.com/43749571/104932884-8a745b00-59eb-11eb-97c8-5a7dd048dfa7.jpeg" width="700px;" alt=""/></a></td>
+  </tr>
+</table>
+
 
 
 <br>
 
 ## Presentation
-* 📑 발표 PPT (datamarket link)
-* 🎞 https://youtu.be/KPS1sD_lcMc
+저희 프로젝트에 대해 좀 더 자세하게 알고 싶으시다면, 하단의 링크를 참고해주세요! 
+* 📑 [발표자료](https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)
+* 🎞 [발표영상](https://youtu.be/KPS1sD_lcMc)
+
 
 <br>
 
 ## Contributors 🐻
-* 빅데이터 동아리 **[ToBigs](http://www.datamarket.kr/xe/)** 멤버들이 함께한 프로젝트입니다. 
-* 투빅스에 대해 좀 더 자세하게 알고 싶으시다면, [![Blog Badge](http://img.shields.io/badge/-Tobigs-black?style=flat-square&logo=github&link=https://github.com/tobigs-datamarket)](https://github.com/tobigs-datamarket)
+* 빅데이터 동아리 **[ToBigs](http://www.datamarket.kr/xe/)** 멤버들이 함께한 프로젝트입니다.
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
