@@ -14,7 +14,6 @@
 
 <br>
 
-https://drive.google.com/drive/u/0/folders/1WxCVWOWGPS2PHhqoGOgnZRu-pkbqCvUw
 
 ## Usage 
 ### 1. Environment  
@@ -30,7 +29,7 @@ $ cd AMIOK
 ```
 ### 2. Install Packages & Download Models
 #### 2.1. Install Mecab 
-2.1.1. install [mecab-ko](https://bitbucket.org/eunjeon/mecab-ko/downloads/) 
+##### 2.1.1. install [mecab-ko](https://bitbucket.org/eunjeon/mecab-ko/downloads/) 
 ```sh
 $ cd AMIOK
 $ tar xvfz mecab-0.996-ko-0.9.2.tar.gz
@@ -41,7 +40,7 @@ $ make check
 $ sudo make install
 ```
 
-2.1.2. install [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/) 
+##### 2.1.2. install [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/) 
 ```sh
 $ cd AMIOK
 $ tar xvfz mecab-ko-dic-2.1.1-20180720.tar.gz
@@ -51,7 +50,7 @@ $ make
 $ sudo make install
 ```
 
-2.1.3. install mecab-python 
+##### 2.1.3. install mecab-python 
 ```sh
 $ cd AMIOK
 $ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
@@ -76,11 +75,11 @@ $ python setup.py install
 ```
 
 #### 2.4. Download Data 
-[drive](https://drive.google.com/drive/folders/1oMNP5UddryHfpWuiF1tuwuDMI0k9Zp_-?usp=sharing)에서 `tr_question_final.pickle`, `tr_answer_final.pickle` 파일을 `AMIOK/data/` 경로에 다운로드 받아주세요. 
+[GoogleDrive](https://drive.google.com/drive/folders/1oMNP5UddryHfpWuiF1tuwuDMI0k9Zp_-?usp=sharing)의 `tr_question_final.pickle`, `tr_answer_final.pickle` 파일을 `AMIOK/data/` 경로에 다운로드 받아주세요. 
 
 
 #### 2.5. Get Pre-trained Checkpoints 
-[drive](https://drive.google.com/drive/u/0/folders/1WxCVWOWGPS2PHhqoGOgnZRu-pkbqCvUw)에서 `seq2seq_ans3cut_epoch_10.pt`, `t5.h5` 파일을 `AMIOK/model/` 경로에 다운로드 받아주세요.
+[GoogleDrive](https://drive.google.com/drive/u/0/folders/1WxCVWOWGPS2PHhqoGOgnZRu-pkbqCvUw)의 `seq2seq_ans3cut_epoch_10.pt`, `t5.h5` 파일을 `AMIOK/model/` 경로에 다운로드 받아주세요.
 
 ### 3. Run! 
 ```sh
