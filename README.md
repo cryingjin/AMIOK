@@ -75,13 +75,14 @@ $ python setup.py install
 ```
 
 #### 2.4. Download Data 
-[GoogleDrive](https://drive.google.com/drive/folders/1oMNP5UddryHfpWuiF1tuwuDMI0k9Zp_-?usp=sharing)의 `tr_question_final.pickle`, `tr_answer_final.pickle` 파일을 `AMIOK/data/` 경로에 다운로드 받아주세요. 
+[drive](https://drive.google.com/drive/folders/1oMNP5UddryHfpWuiF1tuwuDMI0k9Zp_-?usp=sharing)의 `tr_question_final.pickle`, `tr_answer_final.pickle` 파일을 `AMIOK/data/` 경로에 다운로드 받아주세요. 
 
 
 #### 2.5. Get Pre-trained Checkpoints 
-[GoogleDrive](https://drive.google.com/drive/u/0/folders/1WxCVWOWGPS2PHhqoGOgnZRu-pkbqCvUw)의 `seq2seq_ans3cut_epoch_10.pt`, `t5.h5` 파일을 `AMIOK/model/` 경로에 다운로드 받아주세요.
+[drive](https://drive.google.com/drive/u/0/folders/1WxCVWOWGPS2PHhqoGOgnZRu-pkbqCvUw)의 `seq2seq_ans3cut_epoch_10.pt`, `t5.h5` 파일을 `AMIOK/model/` 경로에 다운로드 받아주세요.
 
-### 3. Run! 
+
+### 3. Run! ✨
 ```sh
 $ cd AMIOK
 $ python main.py -s "질문글을 입력해주세요 :>"
@@ -108,8 +109,10 @@ $ python main.py -s "질문글을 입력해주세요 :>"
 
 ## Presentation
 저희 프로젝트에 대해 자세하게 알고 싶으시다면, 하단의 링크를 참고해주세요! 
-* [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Adobe&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)](https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)
+* [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Quip&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)](https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)
 * [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/KPS1sD_lcMc)](https://youtu.be/KPS1sD_lcMc)
+
+
 
 <br>
 
