@@ -16,14 +16,29 @@
 ## Usage 
 ### 1. Create Virtual environment  
 ```sh
-conda create -n virtualvenv
-conda activate virtualvenv
+$ conda create -n virtualvenv
+$ conda activate virtualvenv
 ```
-
-### 2. Install Mecab 
-### 3. Install requirements 
-### 4. Get Pre-trained Checkpoints 
+### 2. Clone 
+```sh
+$ 
+```
+### 3. Install Mecab 
+```sh
+$ 
+```
+### 4. Install requirements 
+```sh
+$ 
+```
+### 5. Get Pre-trained Checkpoints 
+```sh
+$ 
+```
 ### 5. Run! 
+```sh
+$ 
+```
 
 <br>
 
@@ -53,7 +68,7 @@ conda activate virtualvenv
 <br>
 
 ## Contributors 🐻
-* 빅데이터 동아리 **[ToBigs](http://www.datamarket.kr/xe/)** 멤버들이 함께한 프로젝트입니다.
+빅데이터 동아리 **[ToBig's](http://www.datamarket.kr/xe/)** 멤버들이 함께한 프로젝트입니다.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
