@@ -9,35 +9,83 @@
 </table>
 
 * 정신 질환 고민에 대한 질문글을 남기면, 진단을 통해 답변을 생성해 주는 서비스입니다. 
+* **TextRank**로 추출 요약하고, **Seq2seq**과 **T5**를 통해 답변을 생성합니다. 
 * 네이버 지식iN 전문의 답변을 토대로 구성되었으며, 상업적으로 이용할 의도가 전혀 없음을 밝힙니다. 
 
 <br>
 
+https://drive.google.com/drive/u/0/folders/1WxCVWOWGPS2PHhqoGOgnZRu-pkbqCvUw
+
 ## Usage 
-### 1. Create Virtual environment  
+### 1. Environment  
+#### 1.1. Create virtual environment 
 ```sh
-$ conda create -n virtualvenv
-$ conda activate virtualvenv
+$ conda create -n virtualenv
+$ conda activate virtualenv
 ```
-### 2. Clone 
+#### 1.2. git Clone 
 ```sh
-$ 
+$ git clone https://github.com/cryingjin/AMIOK.git
+$ cd AMIOK
 ```
-### 3. Install Mecab 
+### 2. Install Packages & Download Models
+#### 2.1. Install Mecab 
+2.1.1. install [mecab-ko](https://bitbucket.org/eunjeon/mecab-ko/downloads/) 
 ```sh
-$ 
+$ cd AMIOK
+$ tar xvfz mecab-0.996-ko-0.9.2.tar.gz
+$ cd mecab-0.996-ko-0.9.2
+$ ./configure
+$ make
+$ make check
+$ sudo make install
 ```
-### 4. Install requirements 
+
+2.1.2. install [mecab-ko-dic](https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/) 
 ```sh
-$ 
+$ cd AMIOK
+$ tar xvfz mecab-ko-dic-2.1.1-20180720.tar.gz
+$ cd mecab-ko-dic-2.1.1-20180720
+$ ./configure
+$ make
+$ sudo make install
 ```
-### 5. Get Pre-trained Checkpoints 
+
+2.1.3. install mecab-python 
 ```sh
-$ 
+$ cd AMIOK
+$ git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
+$ cd mecab-python-0.996
+$ python setup.py build
+$ su
+# python setup.py install
 ```
-### 5. Run! 
+
+#### 2.2. Install requirements 
 ```sh
-$ 
+$ cd AMIOK
+$ pip install -r requirements.txt
+```
+
+#### 2.3. Install py-hanspell 
+```sh
+$ cd AMIOK
+$ git clone https://github.com/ssut/py-hanspell.git
+$ cd py-hanspell 
+$ python setup.py install
+```
+
+#### 2.4. Download Data 
+[drive](https://drive.google.com/drive/folders/1oMNP5UddryHfpWuiF1tuwuDMI0k9Zp_-?usp=sharing)에서 `tr_question_final.pickle`, `tr_answer_final.pickle` 파일을 `AMIOK/data/` 경로에 다운로드 받아주세요. 
+
+
+#### 2.5. Get Pre-trained Checkpoints 
+[drive](https://drive.google.com/drive/u/0/folders/1WxCVWOWGPS2PHhqoGOgnZRu-pkbqCvUw)에서 `seq2seq_ans3cut_epoch_10.pt`, `t5.h5` 파일을 `AMIOK/model/` 경로에 다운로드 받아주세요.
+
+### 3. Run! 
+```sh
+$ cd AMIOK
+$ python main.py -s "질문글을 입력해주세요 :>"
 ```
 
 <br>
@@ -60,10 +108,9 @@ $
 <br>
 
 ## Presentation
-저희 프로젝트에 대해 좀 더 자세하게 알고 싶으시다면, 하단의 링크를 참고해주세요! 
-* 📑 [발표자료](https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)
-* 🎞 [발표영상](https://youtu.be/KPS1sD_lcMc)
-
+저희 프로젝트에 대해 자세하게 알고 싶으시다면, 하단의 링크를 참고해주세요! 
+* [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Adobe&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)](https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)
+* [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/KPS1sD_lcMc)](https://youtu.be/KPS1sD_lcMc)
 
 <br>
 
