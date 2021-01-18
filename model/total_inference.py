@@ -16,7 +16,7 @@ class ModelInference:
 
         self.mt5 = TFMT5ForConditionalGeneration.from_pretrained("google/mt5-small")
         self.mt5_tokenizer = T5Tokenizer.from_pretrained('google/mt5-small')
-        self.mt5.load_weights('model/t5.tf')
+        self.mt5.load_weights('model/t5.h5')
         
 
     def inference_seq2seq(self,text_token):
@@ -33,8 +33,6 @@ class ModelInference:
 
             # 토큰 데이터, 라벨 데이터
             input_features, output_features = batch[0], batch[1]
-            # print('input_features : ',input_features)
-            # print('output_features : ',output_features)
 
             with torch.no_grad():
                 predicts = model(input_features)
@@ -63,11 +61,11 @@ class ModelInference:
         tokenizer = self.mt5_tokenizer
 
         inputs = tokenizer.prepare_seq2seq_batch(src_texts=text_token,
-                                           return_tensors='tf',
-                                            max_length=128).input_ids
+                                                 return_tensors='tf',
+                                                 max_length=128).input_ids
         output = model.generate(inputs,
                             max_length=200,
                             repetition_penalty=20,
                             early_stopping=True,
-                           num_beams=10)
+                            num_beams=10)
         return (tokenizer.decode(output[0]))
