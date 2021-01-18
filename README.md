@@ -1,6 +1,6 @@
-# AMIOK (리드미 수정 중 ~) 
+# AM I OK? (리드미 수정 중 ~) 
 ### 전문의 답변 기반 심리진단 AI 🧐
-2021.01.16, **[제 11회 투빅스 빅데이터 컨퍼런스](https://user-images.githubusercontent.com/43749571/104812963-447f9180-5849-11eb-8725-7453e129c5e9.jpeg)** 발표작
+2021.01.16. **[제 11회 투빅스 빅데이터 컨퍼런스](https://user-images.githubusercontent.com/43749571/104812963-447f9180-5849-11eb-8725-7453e129c5e9.jpeg)** 발표작
 
 <table>
   <tr>
@@ -8,13 +8,34 @@
   </tr>
 </table>
 
+* 정신 질환 고민에 대한 질문글을 남기면, 진단을 통해 답변을 생성해 주는 서비스입니다. 
+* 네이버 지식iN 전문의 답변을 토대로 구성되었으며, 상업적으로 이용할 의도가 전혀 없음을 밝힙니다. 
+
+<br>
+
+## Usage 
+### 1. Create Virtual environment  
+### 2. Install Mecab 
+### 3. Install requirements 
+### 4. Get Pre-trained Checkpoints 
+### 5. Run! 
+
+<br>
+
+## Results 
+
+
+<br>
 
 ## Presentation
 * 📑 발표 PPT (datamarket link)
 * 🎞 https://youtu.be/KPS1sD_lcMc
 
+<br>
 
 ## Contributors 🐻
+* 빅데이터 동아리 **[ToBigs](http://www.datamarket.kr/xe/)** 멤버들이 함께한 프로젝트입니다. 
+* 투빅스에 대해 좀 더 자세하게 알고 싶으시다면, [![Blog Badge](http://img.shields.io/badge/-Tobigs-black?style=flat-square&logo=github&link=https://github.com/tobigs-datamarket)](https://github.com/tobigs-datamarket)
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -33,6 +54,6 @@
     <td align="center"><a href="https://github.com/jbeen2"><img src="https://user-images.githubusercontent.com/43749571/104813215-21ee7800-584b-11eb-8958-9f407108ff0c.jpeg" width="150" height="150"><br /><sub><b>Jaebeen Lee</b></sub></td>
     <td align="center"><a href="https://github.com/placidmoon1"><img src="https://user-images.githubusercontent.com/43749571/104813213-1e5af100-584b-11eb-9d52-6af880788410.jpg" width="150" height="150"><br /><sub><b>Guhong Min</b></sub></td>
     <td align="center"><a href="https://github.com/Jieun-Enna"><img src="https://user-images.githubusercontent.com/43749571/104813218-231fa500-584b-11eb-868b-b7c0f7ce30c7.jpg" width="150" height="150"><br /><sub><b>Jieun Park</b></sub></td>
-    <td align="center"><a href="https://github.com/hrlee-113"><img src="https://user-images.githubusercontent.com/43749571/104813214-1f8c1e00-584b-11eb-93f2-cd0e8a195713.jpeg" width="150" height="150"><br /><sub><b>Hyerin Lee</b></sub></td>
+    <td align="center"><a href="https://github.com/hrlee113"><img src="https://user-images.githubusercontent.com/43749571/104813214-1f8c1e00-584b-11eb-93f2-cd0e8a195713.jpeg" width="150" height="150"><br /><sub><b>Hyerin Lee</b></sub></td>
   </tr>
 </table>
