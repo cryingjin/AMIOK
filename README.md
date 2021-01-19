@@ -102,7 +102,7 @@ $ python main.py -s "질문글을 입력해주세요 :>"
 <br>
 
 ## Presentation
-저희 프로젝트에 대해 자세하게 알고 싶으시다면, 하단의 링크를 참고해주세요! 
+저희 프로젝트에 대해 자세하게 알고 싶으시다면, 하단의 링크를 참고해주세요!  
 * [![GoogleDrive Badge](https://img.shields.io/badge/REPORT-405263?style=flat-square&logo=Quip&link=https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)](https://drive.google.com/file/d/1VnYsB8k4Fxu6UFhAxuTi4m01BjoH2uwS/view?usp=sharing)
 * [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/KPS1sD_lcMc)](https://youtu.be/KPS1sD_lcMc)
 
