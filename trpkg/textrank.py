@@ -106,4 +106,6 @@ def sentence_extraction(text):
     result = prep.spell_check(result)
     return result
 
-
+'''
+https://bab2min.tistory.com/570 해당 링크를 참고해 코드를 구현하였습니다. 
+'''

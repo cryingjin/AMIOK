@@ -37,10 +37,15 @@ if __name__ == '__main__':
             answer = inferencer.inference_seq2seq(ypo)
             result_type = 'dl'
         else:
-            print("가랏 티파니")
             answer = inferencer.inference_mt5(sentence)
             result_type = 'dl'
 
     # postprocess
     answer = post.postprocess(answer, result_type)
+
+    print()
+    print("=====" * 20)
     print("\n[",result_type, "answer ]", answer)
+    print()
+    print("=====" * 20)
+    print()
