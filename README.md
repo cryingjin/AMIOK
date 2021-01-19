@@ -115,7 +115,7 @@ $ python main.py -s "질문글을 입력해주세요 :>"
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- markdownlint-disable --> 
 
 <table>
   <tr>
