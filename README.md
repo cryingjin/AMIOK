@@ -1,7 +1,7 @@
 # AM I OK? 
 ### 전문의 답변 기반 심리진단 AI 🧐
 2021.01.16. **[제 11회 투빅스 빅데이터 컨퍼런스](https://user-images.githubusercontent.com/43749571/104812963-447f9180-5849-11eb-8725-7453e129c5e9.jpeg)** 발표작
-
+ 
 <table>
   <tr>
     <td align="center"><img src="https://user-images.githubusercontent.com/43749571/104812828-48f77a80-5848-11eb-9367-3cce4711f56d.jpeg" width="700px;" alt=""/></a></td>
