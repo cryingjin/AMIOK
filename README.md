@@ -131,6 +131,6 @@ $ python main.py -s "질문글을 입력해주세요 :>"
     <td align="center"><a href="https://github.com/jbeen2"><img src="https://user-images.githubusercontent.com/43749571/104813215-21ee7800-584b-11eb-8958-9f407108ff0c.jpeg" width="150" height="150"><br /><sub><b>Jaebeen Lee</b></sub></td>
     <td align="center"><a href="https://github.com/placidmoon1"><img src="https://user-images.githubusercontent.com/43749571/104813213-1e5af100-584b-11eb-9d52-6af880788410.jpg" width="150" height="150"><br /><sub><b>Guhong Min</b></sub></td>
     <td align="center"><a href="https://github.com/Jieun-Enna"><img src="https://user-images.githubusercontent.com/43749571/104813218-231fa500-584b-11eb-868b-b7c0f7ce30c7.jpg" width="150" height="150"><br /><sub><b>Jieun Park</b></sub></td>
-    <td align="center"><a href="https://github.com/hrlee113"><img src="https://user-images.githubusercontent.com/43749571/104813214-1f8c1e00-584b-11eb-93f2-cd0e8a195713.jpeg" width="150" height="150"><br /><sub><b>Hyerin Lee</b></sub></td>
+    <td align="center"><a href="https://github.com/hrlee113"><img src="https://user-images.githubusercontent.com/43749571/104813214-1f8c1e00-584b-11eb-93f2-cd0e8a195713.jpeg" width="150" height="150"><br /><sub><b>Hyerin Lee</b></sub></td> 
   </tr>
 </table>
