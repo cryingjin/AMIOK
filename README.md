@@ -121,7 +121,7 @@ $ python main.py -s "질문글을 입력해주세요 :>"
   <tr>
     <td align="center"><a href="https://github.com/jhtobigs"><img src="https://user-images.githubusercontent.com/43749571/104813217-231fa500-584b-11eb-9e58-90460f99c15b.png" width="150" height="150"><br /><sub><b>Juho Kim</b></sub></td>
     <td align="center"><a href="https://github.com/gyeong707"><img src="https://user-images.githubusercontent.com/43749571/104813219-23b83b80-584b-11eb-856f-6d3de4ed1335.JPG" width="150" height="150"><br /><sub><b>Migyeong Kang</b></sub></td>
-    <td align="center"><a href="https://github.com/kmmnjng528"><img src="https://user-images.githubusercontent.com/43749571/104813221-2450d200-584b-11eb-986e-328f2ebf43c2.JPG" width="150" height="150"><br /><sub><b>Minjung Kim</b></sub></td>
+    <td align="center"><a href="https://github.com/kmmnjng528"><img src="https://user-images.githubusercontent.com/43749571/104813221-2450d200-584b-11eb-986e-328f2ebf43c2.JPG" width="150" height="150"><br /><sub><b>MinJjeong Kim</b></sub></td>
     <td align="center"><a href="https://github.com/cryingjin"><img src="https://user-images.githubusercontent.com/43749571/104813223-24e96880-584b-11eb-96b8-dfe4de1b0274.png" width="150" height="150"><br /><sub><b>Yejin Lee</b></sub></td>
   </tr>
 </table>
